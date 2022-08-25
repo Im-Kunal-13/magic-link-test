@@ -29,7 +29,7 @@ const DrawerRight = () => {
       size="lg"
       className="font-semibold px-5 overflow-y-scrol"
       classNames={{
-        drawer: "bg-themeBgDarkBlue3 pl-10 bg-opacity-60",
+        drawer: "bg-themeBgDarkBlue3 pl-10 bg-opacity-60 max-w-87.5%",
         title: "text-white font__harmattan text-2xl tracking-wider ml-1",
       }}
     >
