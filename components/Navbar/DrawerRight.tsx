@@ -1,10 +1,16 @@
 import { Drawer, useMantineTheme } from "@mantine/core";
 import { useAppStateContext } from "../../context/contextProvider";
 import { drawerLinks } from "../../assets/links";
+import Link from "next/link";
 
 const DrawerRight = () => {
   const theme = useMantineTheme();
+  //@ts-ignore
   const { drawerActive, setDrawerActive } = useAppStateContext();
+
+  const handleLinkClick = () => {
+    setDrawerActive(false);
+  };
 
   return (
     <Drawer
@@ -28,19 +34,31 @@ const DrawerRight = () => {
       }}
     >
       <div className="flex flex-col gap-5 relative">
-        {drawerLinks.map((item) => (
-          <div className="flex items-center gap-4" key={item.label}>
-            <item.Icon color="white" size={25} />
+        {drawerLinks.map((item) => {
+          return item.type === "route" ? (
+            <Link href={item.link} key={item.label}>
+              <a
+                className="text-white font__harmattan tracking-widest text-xl flex items-center gap-4"
+                onClick={handleLinkClick}
+              >
+                <item.Icon color="white" size={25} />
+                {item.label}
+              </a>
+            </Link>
+          ) : (
             <a
-              className="text-white font__harmattan tracking-widest text-xl"
+              className="text-white font__harmattan tracking-widest text-xl flex items-center gap-4"
+              key={item.label}
               href={item.link}
               target="_blank"
               rel="noreferrer"
+              onClick={handleLinkClick}
             >
+              <item.Icon color="white" size={25} />
               {item.label}
             </a>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </Drawer>
   );
