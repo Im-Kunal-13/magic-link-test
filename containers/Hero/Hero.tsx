@@ -248,7 +248,7 @@ const Hero = () => {
               <div className="flex relative left-10">
                 <span className="reflect" style={{ zIndex: "6" }}>
                   <img
-                    src="/fantomUniverse.png"
+                    src="avatar6.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full shadow-whiteArrow"
                   />
@@ -258,7 +258,7 @@ const Hero = () => {
                   style={{ zIndex: "5", right: "15px" }}
                 >
                   <img
-                    src="/buildSpace.jpg"
+                    src="/avatar12.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full shadow-whiteArrow"
                   />
@@ -268,7 +268,7 @@ const Hero = () => {
                   style={{ zIndex: "4", right: "30px" }}
                 >
                   <img
-                    src="/marketingMetaverse.jpg"
+                    src="/avatar3.png"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full shadow-whiteArrow"
                   />
@@ -278,7 +278,7 @@ const Hero = () => {
                   style={{ zIndex: "2", right: "45px" }}
                 >
                   <img
-                    src="/learnWeb3Dao.jpg"
+                    src="/avatar2.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full shadow-whiteArrow"
                   />
@@ -288,7 +288,7 @@ const Hero = () => {
                   style={{ zIndex: "1", right: "60px" }}
                 >
                   <img
-                    src="/productHouse.jpg"
+                    src="/avatar9.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full  shadow-whiteArrow"
                   />
@@ -298,7 +298,7 @@ const Hero = () => {
                   style={{ zIndex: "0", right: "75px" }}
                 >
                   <img
-                    src="/web3Learn.jpg"
+                    src="/avatar13.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full  shadow-whiteArrow"
                   />
