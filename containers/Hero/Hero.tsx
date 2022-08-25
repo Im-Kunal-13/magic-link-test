@@ -98,7 +98,7 @@ const Hero = () => {
                   onClick={() => setImgRollAnimation(!imgRollAnimation)}
                 >
                   <img
-                    src="avatar6.jpg"
+                    src="fantomUniverse.png"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full  shadow-whiteArrow hover:shadow-pinkArrow transition-all hover:scale-125 cursor-pointer"
                   />
@@ -114,7 +114,7 @@ const Hero = () => {
                   transition={{ duration: 0.75, ease: "backOut", delay: 0.25 }}
                 >
                   <img
-                    src="/avatar12.jpg"
+                    src="buildSpace.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full shadow-whiteArrow hover:shadow-pinkArrow transition-all hover:scale-125 cursor-pointer"
                   />
@@ -128,7 +128,7 @@ const Hero = () => {
                   transition={{ duration: 0.75, ease: "backOut", delay: 0.25 }}
                 >
                   <img
-                    src="/avatar3.png"
+                    src="marketingMetaverse.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full  shadow-whiteArrow hover:shadow-pinkArrow transition-all hover:scale-125 cursor-pointer"
                   />
@@ -144,7 +144,7 @@ const Hero = () => {
                   transition={{ duration: 0.75, ease: "backOut", delay: 0.25 }}
                 >
                   <img
-                    src="/avatar2.jpg"
+                    src="learnWeb3Dao.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full  shadow-whiteArrow hover:shadow-pinkArrow transition-all hover:scale-125 cursor-pointer "
                   />
@@ -160,7 +160,7 @@ const Hero = () => {
                   transition={{ duration: 0.75, ease: "backOut", delay: 0.25 }}
                 >
                   <img
-                    src="/avatar9.jpg"
+                    src="productHouse.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full  shadow-whiteArrow hover:shadow-pinkArrow transition-all hover:scale-125 cursor-pointer "
                   />
@@ -176,7 +176,7 @@ const Hero = () => {
                   transition={{ duration: 0.75, ease: "backOut", delay: 0.25 }}
                 >
                   <img
-                    src="/avatar13.jpg"
+                    src="web3Learn.jpg"
                     alt=""
                     className="w-12 h-12 object-cover rounded-full  shadow-whiteArrow hover:shadow-pinkArrow transition-all hover:scale-125 cursor-pointer "
                   />
