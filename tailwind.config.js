@@ -111,12 +111,17 @@ module.exports = {
         "55-rem": "55rem",
         "60-rem": "60rem",
       },
+      fontSize: {
+        "40px": "40px",
+        "13px": "13px"
+      },
       borderRadius: {
         "20-px": "20px",
         "160-px": "160px",
       },
       maxWidth: () => ({
         "87.5%": "87.5%",
+        "600px": "600px"
       }),
       animation: {
         float: "float 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",

@@ -6,7 +6,7 @@ import styles from "./Earn.module.scss";
 const Earn = () => {
   return (
     <div
-      className="flex items-center flex-col sm:gap-24 gap-10 lg1300:mt-0 sm600:mt-20 mt-5 relative px-2"
+      className="flex items-center flex-col sm:gap-24 gap-10 lg1300:mt-0 sm600:mt-20 mt-5 relative px-2 z-10 xl1800:px-40 xl2000:px-60 xl2400:px-96"
       id="earn"
     >
       {/* <img
