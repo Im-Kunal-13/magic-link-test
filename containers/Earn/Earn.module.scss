@@ -1,0 +1,20 @@
+.card_label {
+  font-family: "Inter", sans-serif;
+}
+.gradient_hover {
+  background: linear-gradient(180deg, #9313f8, #fe06c7);
+  background-size: 110%;
+  visibility: hidden;
+}
+.card_body:hover {
+  .gradient_hover {
+    visibility: visible;
+  }
+}
+.title {
+  text-shadow: white 1px 0px 125px;
+
+  @media only screen and (max-width: 600px) {
+    text-shadow: white 1px 0px 75px;
+  }
+}

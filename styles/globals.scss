@@ -1,9 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.main {
+  height: 100vh;
 }
 
 a {
@@ -34,6 +42,15 @@ a {
 .font-montserrat {
   font-family: "Montserrat", sans-serif;
 }
+.font-exo2 {
+  font-family: "Exo 2", sans-serif;
+}
+.font__inter {
+  font-family: "Inter", sans-serif;
+}
+.font_exo {
+  font-family: "Inter", sans-serif;
+}
 
 .landing-gradient {
   background: linear-gradient(135deg, #07132b 10%, #02060c);
@@ -60,6 +77,26 @@ a {
 .gradient-text-logo {
   background-color: #2207c9 !important;
   background: linear-gradient(45deg, #ee34d9, #6d31a7 40%, #10f3f6) !important;
+  // background-size: 110%;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  -moz-text-fill-color: transparent !important;
+  padding-right: 5px !important;
+}
+.gradient-text-cyan {
+  background-color: #10f3f6 !important;
+  background: linear-gradient(45deg, white, #10f3f6) !important;
+  // background-size: 110%;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  -moz-text-fill-color: transparent !important;
+  padding-right: 5px !important;
+}
+.gradient-text-pink {
+  background-color: #ee34d9 !important;
+  background: linear-gradient(45deg, white, #ee34d9) !important;
   // background-size: 110%;
   -webkit-background-clip: text !important;
   -moz-background-clip: text !important;
@@ -105,16 +142,16 @@ a {
   -webkit-box-reflect: below -5px linear-gradient(transparent, rgba(0, 0, 0, 0.15));
 }
 
-.fa {
-  color: transparent !important;
-  background-clip: text !important;
-  background-image: linear-gradient(
-    45deg,
-    #ee34d9,
-    #6d31a7 40%,
-    #8ef5fb
-  ) !important;
-}
+// .fa {
+//   color: transparent !important;
+//   background-clip: text !important;
+//   background-image: linear-gradient(
+//     45deg,
+//     #ee34d9,
+//     #6d31a7 40%,
+//     #8ef5fb
+//   ) !important;
+// }
 
 .bubble_blur {
   width: 300px;
@@ -134,4 +171,9 @@ a {
     width: 22.5px;
     height: 22.5px;
   }
+}
+
+@font-face {
+  font-family: "sf-pro-medium";
+  src: url("/fonts/SFPRODISPLAYMEDIUM.OTF");
 }

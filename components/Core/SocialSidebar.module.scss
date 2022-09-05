@@ -1,0 +1,14 @@
+.animate_right {
+    animation: animate_right forwards 0.3s .5s ease-out;
+}
+
+@keyframes animate_right {
+    from {
+      right: -100px;
+      opacity: 0;
+    }
+    to {
+      right: 40px;
+      opacity: 1;
+    }
+  }

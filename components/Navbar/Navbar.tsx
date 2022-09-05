@@ -130,7 +130,7 @@ const Navbar = () => {
         id={`${styles.navbar}`}
       >
         <Container
-          className={`${classes.header} flex w-full max-w-full sm:px-20 xl2:px-40 px-5`}
+          className={`${classes.header} flex w-full max-w-full sm:px-20 xl1500:px-40 px-5`}
         >
           <div className="flex items-center gap-3">
             <div className="w-14">
@@ -157,7 +157,7 @@ const Navbar = () => {
               href="https://tally.so/r/3ja5j4"
               target="_blank"
               rel="noreferrer"
-              className="font__kaushan text-white py-2 px-7 rounded font-medium tracking-widest button-gradient-1 hover:scale-105 transition-all"
+              className="font__kaushan text-white py-2 px-7 rounded font-medium tracking-widest button-gradient-1 hover:scale-105 transition-all duration-300"
             >
               Join Waitlist
               {/* Get Started  */}

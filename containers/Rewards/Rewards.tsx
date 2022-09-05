@@ -2,7 +2,7 @@ import React from "react";
 
 const Rewards = () => {
   return (
-    <div className="grid grid-cols-4 gap-0 lg3:px-20 xl6:px-40" id="rewards">
+    <div className="grid grid-cols-4 gap-0 lg1350:px-20 xl1900:px-40" id="rewards">
       <div
         className="col-span-1 flex items-center justify-start h-44 bg-white bg-opacity-20 rounded-lg px-12 relative left-16"
         style={{ clipPath: "polygon(0 0, 80% 0, 100% 100%, 0% 100%)" }}

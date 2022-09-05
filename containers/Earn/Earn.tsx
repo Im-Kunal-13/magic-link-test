@@ -1,44 +1,62 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { earnLinks } from "../../assets/links";
+
+import styles from "./Earn.module.scss";
 
 const Earn = () => {
   return (
-    <div className="flex items-center flex-col sm:gap-14 gap-10 lg3:px-20 xl6:px-40 xl:mt-0 mt-20" id="earn">
-      <h1 className="sm:text-4xl text-xl sm400:text-2xl font-bold tracking-wide font__kaushan">
-        Earn Crypto For Being Awesome
+    <div
+      className="flex items-center flex-col sm:gap-24 gap-10 lg1300:mt-0 sm600:mt-20 mt-5 relative px-2"
+      id="earn"
+    >
+      {/* <img
+        src="/web_bg_purple.png"
+        alt="web background"
+        className="absolute h-full w-full bottom-24 top-0 m-auto opacity-30"
+        style={{ height: "calc(100% + 150px)" }}
+      /> */}
+      <h1 className={`sm600:text-5xl text-4xl tracking-wide font-exo2 font-bold ${styles.title}`}>
+        How It Works
       </h1>
-      <motion.div
-        className="sm600:grid hidden grid-cols-6 w-full"
-        whileInView={{ scaleX: [0, 1], opacity: [0, 1] }}
-        transition={{ duration: 0.75, ease: "backOut" }}
-      >
-        {earnLinks.map((item) => (
+      <div className="grid hidde grid-cols-6 w-full sm600:gap-x-0 gap-x-2 sm600:gap-y-28 gap-y-10 animate-gap">
+        {earnLinks.map((card) => (
           <div
-            className="xl:col-span-1 sm:col-span-2 col-span-3 gap-5 flex flex-col xl:gap-2 items-center cursor-pointer sm600:hover:bg-white sm600:hover:bg-opacity-10 sm600:hover:backdrop-blur sm600:transition-all py-5 rounded sm600:hover:shadow-cardWhite sm600:hover:scale-110"
-            key={item.label}
+            key={card.label}
+            className="md1000:col-span-2 col-span-3 flex items-center justify-center sm600:scale-100 scale-95"
           >
-            <i className={`fa ${item.iconClass} sm:text-6xl text-5xl`} />
-            <p className="font-medium sm:text-md tracking-wider font-montserrat">
-              {item.label}
-            </p>
-          </div>
-        ))}
-      </motion.div>
-      {/* Smaller Devices */}
-      <div className="grid sm600:hidden grid-cols-6 w-full">
-        {earnLinks.map((item) => (
-          <div
-            className=" xl:col-span-1 sm:col-span-2 col-span-3 gap-5 flex flex-col xl:gap-2 items-center cursor-pointer sm600:hover:bg-white sm600:hover:bg-opacity-10 sm600:hover:backdrop-blur sm600:transition-all py-5 rounded sm600:hover:shadow-cardWhite sm600:hover:scale-110"
-            key={item.label}
-          >
-            <i className={`fa ${item.iconClass} sm:text-6xl text-5xl`} />
-            <p className="font-medium sm:text-md tracking-wider font-montserrat">
-              {item.label}
-            </p>
+            <div
+              className={`sm600:h-56 sm600:w-64 h-44 w-52 relative sm600:hover:bottom-5 bottom-0 transition-all duration-300 ${styles.card_body}`}
+            >
+              <div
+                className={`${styles.gradient_hover} absolute rounded-xl z-0 top-0 bottom-0 right-0 m-auto sm600:block hidden transition-all`}
+                style={{
+                  width: "calc(100% + 4px)",
+                  height: "calc(100% + 4px)",
+                  left: "-2px"
+                }}
+              />
+              <div
+                className={`flex flex-col items-center gap-4 rounded-xl justify-center bg-cardBlue2 ${styles.card} absolute cursor-pointer h-full w-full`}
+              >
+                <div className="bg-white absolute sm600:h-20 sm600:w-20 h-16 w-16 rounded-full bottom-12 m-auto top-0 left-0 right-0 blur-2xl opacity-80" />
+                <div className="sm600:h-28 h-20 z-10">
+                  <img
+                    src={card.img}
+                    alt={card.label}
+                    className={`${card.imgClassNames}`}
+                  />
+                </div>
+                <p
+                  className={`tracking-wider leading-9 font-medium text-xs sm600:text-base ${styles.card_label}`}
+                >
+                  {card.label}
+                </p>
+              </div>
+            </div>
           </div>
         ))}
       </div>
+      {/* Smaller Devices */}
     </div>
   );
 };

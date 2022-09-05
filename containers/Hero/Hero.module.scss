@@ -1,0 +1,102 @@
+.animate_left {
+  animation: animate_left 1s ease-out;
+}
+
+.animate_right {
+  animation: animate_right 0.75s ease-out;
+}
+
+@keyframes animate_left {
+  from {
+    opacity: 0;
+    top: 100px;
+  }
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}
+@keyframes animate_right {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.img1 {
+  animation: img1 forwards 0.5s ease-out;
+}
+
+@keyframes img1 {
+  from {
+    right: 47.5px;
+  }
+  to {
+    right: 15px;
+  }
+}
+.img2 {
+  animation: img2 forwards 0.5s ease-out;
+}
+
+@keyframes img2 {
+  from {
+    right: 95px;
+  }
+  to {
+    right: 30px;
+  }
+}
+.img3 {
+  animation: img3 forwards 0.5s ease-out;
+}
+
+@keyframes img3 {
+  from {
+    right: 143px;
+  }
+  to {
+    right: 45px;
+  }
+}
+.img4 {
+  animation: img4 forwards 0.5s ease-out;
+}
+
+@keyframes img4 {
+  from {
+    right: 190px;
+  }
+  to {
+    right: 60px;
+  }
+}
+
+.img5 {
+  animation: img5 forwards 0.5s ease-out;
+}
+
+@keyframes img5 {
+  from {
+    right: 240px;
+  }
+  to {
+    right: 75px;
+  }
+}
+.community {
+  animation: community forwards 0.5s ease-out;
+}
+
+@keyframes community {
+  from {
+    right: 225px;
+  }
+  to {
+    right: 35px;
+  }
+}
