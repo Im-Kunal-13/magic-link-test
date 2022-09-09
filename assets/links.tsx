@@ -121,3 +121,69 @@ export const earnLinks = [
     hoverColor: "pink",
   },
 ];
+
+export const memberLinks = [
+  {
+    img: "/team_avatar.png",
+    name: "Shivraj",
+    link: "https://twitter.com/konnektrhq",
+    role: "Developer",
+    id: "1",
+  },
+  {
+    img: "/team_avatar.png",
+    name: "Sharath",
+    link: "https://twitter.com/konnektrhq",
+    role: "Developer",
+    id: "2",
+  },
+  {
+    img: "/team_avatar.png",
+    name: "Kunal",
+    link: "https://twitter.com/konnektrhq",
+    role: "Developer",
+    id: "3",
+  },
+  {
+    img: "/team_avatar.png",
+    name: "Athul",
+    link: "https://twitter.com/konnektrhq",
+    role: "Designer",
+    id: "4",
+  },
+  {
+    img: "/team_avatar.png",
+    name: "Pranav",
+    link: "https://twitter.com/konnektrhq",
+    role: "Developer",
+    id: "5",
+  },
+];
+
+export const faqs = [
+  {
+    value: "faq1",
+    ques: "How can we help ?",
+    ans: "Navigate through multiple communities, DAOs and connect with the ones you are interested in.",
+  },
+  {
+    value: "faq2",
+    ques: "Cannot find what you are looking for ?",
+    ans: "Navigate through multiple communities, DAOs and connect with the ones you are interested in.",
+  },
+  {
+    value: "faq3",
+    ques: "How can we help ?",
+    ans: "Navigate through multiple communities, DAOs and connect with the ones you are interested in.",
+  },
+  {
+    value: "faq4",
+    ques: "How can we help ?",
+    ans: "Navigate through multiple communities, DAOs and connect with the ones you are interested in.",
+  },
+  {
+    value: "faq5",
+    ques: "How can we help ?",
+    ans: "Navigate through multiple communities, DAOs and connect with the ones you are interested in.",
+  },
+];

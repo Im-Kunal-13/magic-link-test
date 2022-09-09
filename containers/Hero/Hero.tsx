@@ -26,7 +26,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative xl1800:px-40 xl2000:px-60 xl2400:px-96" id="hero" style={{ minHeight: "77.5vh" }}>
+    <div className="relative xl1800:px-40 xl2000:px-60 xl2400:px-96" id="hero">
       <div className="lg1300:mt-28 grid grid-cols-2 lg1300:gap-0 gap-10 lg:px-0 xl6:pr-40">
         <div
           className={`text-center lg1300:text-start lg1300:col-span-1 col-span-2 lg1300:pl-14 xl1500:pl-40 flex flex-col lg1300:gap-0 gap-2 px-2 lg1300:order-1 order-2 relative lg1300:bottom-0 bottom-8 z-10 ${styles.animate_left}`}

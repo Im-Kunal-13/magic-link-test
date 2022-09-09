@@ -1,0 +1,7 @@
+.title {
+  text-shadow: white 1px 0px 125px;
+
+  @media only screen and (max-width: 600px) {
+    text-shadow: white 1px 0px 75px;
+  }
+}

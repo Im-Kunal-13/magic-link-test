@@ -31,7 +31,7 @@ export const Intro1 = () => {
           <h1 className="font_exo font-bold lg1300:text-5xl sm600:text-40px text-2xl">
             What does Konnektr do ?
           </h1>
-          <p className="text-gray-400 font__inter sm600:text-lg text-base font-semibold lg1300:pr-10 tracking-wider leading-relaxed">
+          <p className="text-gray-400 font_sfpro sm600:text-lg text-base font-semibold lg1300:pr-10 tracking-widest leading-relaxed">
             Konnektr is a web3 platform which lets you find connections and grow
             your network easily and effectively while you earn crypto alongside
             it.
@@ -40,7 +40,7 @@ export const Intro1 = () => {
             href="https://tally.so/r/3ja5j4"
             target="_blank"
             rel="noreferrer"
-            className="text-white tracking-wider text-xl font-bold font__inter button-gradient-1 landing-review2-reverse px-7 py-2.5 rounded w-fit hover:scale-105 transition-all duration-300"
+            className="text-white tracking-wider text-xl font-bold font_sfpro button-gradient-1 landing-review2-reverse px-7 py-2.5 rounded w-fit hover:scale-105 transition-all duration-300"
             type="button"
           >
             Connect
@@ -61,8 +61,8 @@ export const Intro1 = () => {
                 />
                 <div className="absolute flex items-center gap-2.5 rounded-lg h-full w-full bg-introCardBg px-2.5">
                   <img src="community.png" alt="" className="w-11" />
-                  <span className="font__inter lg1300:text-lg lg1200:text-base text-xs font-semibold tracking-wider leading-relaxed">
-                    Join Community
+                  <span className="font_sfpro lg1300:text-lg lg1200:text-base text-xs font-semibold tracking-wider leading-relaxed">
+                    Find Connections
                   </span>
                 </div>
               </div>
@@ -77,7 +77,7 @@ export const Intro1 = () => {
                 />
                 <div className="absolute flex items-center gap-4 rounded-lg h-full w-full bg-introCardBg px-2.5">
                   <img src="detective.png" alt="" className="w-9" />
-                  <span className="font__inter lg1300:text-lg lg1200:text-base text-xs font-semibold tracking-wider leading-relaxed">
+                  <span className="font_sfpro lg1300:text-lg lg1200:text-base text-xs font-semibold tracking-wider leading-relaxed">
                     Join Community
                   </span>
                 </div>
@@ -98,7 +98,7 @@ export const Intro1 = () => {
                 />
                 <div className="absolute flex items-center gap-4 rounded-lg h-full w-full bg-introCardBg px-2.5">
                   <img src="gift.png" alt="" className="w-9" />
-                  <span className="font__inter lg1300:text-lg lg1200:text-base text-xs font-semibold tracking-wider leading-relaxed">
+                  <span className="font_sfpro lg1300:text-lg lg1200:text-base text-xs font-semibold tracking-wider leading-relaxed">
                     Get Rewarded
                   </span>
                 </div>
@@ -114,7 +114,7 @@ export const Intro1 = () => {
                     }}
                   />
                   <div className="absolute flex flex-col items-center gap-0 rounded-lg h-full w-full lg1300:py-1 py-2 bg-introCardBg">
-                    <span className="font__inter lg1300:text-base text-xs font-semibold tracking-wider leading-relaxed">
+                    <span className="font_sfpro lg1300:text-base text-xs font-semibold tracking-wider leading-relaxed">
                       {"NFT's"}
                     </span>
                     <img src="gem.png" alt="" className="w-9" />
@@ -130,7 +130,7 @@ export const Intro1 = () => {
                     }}
                   />
                   <div className="absolute flex flex-col items-center gap-0 rounded-lg h-full w-full lg1300:py-1 py-2 bg-introCardBg">
-                    <span className="font__inter lg1300:text-base text-xs font-semibold tracking-wider leading-relaxed">
+                    <span className="font_sfpro lg1300:text-base text-xs font-semibold tracking-wider leading-relaxed">
                       Airdrops
                     </span>
                     <img
@@ -150,7 +150,7 @@ export const Intro1 = () => {
                     }}
                   />
                   <div className="absolute flex flex-col items-center gap-0 rounded-lg h-full w-full lg1300:py-1 py-2 bg-introCardBg">
-                    <span className="font__inter lg1300:text-base text-xs font-semibold tracking-wider leading-relaxed">
+                    <span className="font_sfpro lg1300:text-base text-xs font-semibold tracking-wider leading-relaxed">
                       Crypto
                     </span>
                     <img src="money.png" alt="" className="w-10" />

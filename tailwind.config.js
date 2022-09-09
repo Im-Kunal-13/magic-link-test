@@ -59,6 +59,7 @@ module.exports = {
         cardGradientPurple: "#9313F8",
         cardGradientPink: "#FE06C7",
         introCardBg: "#070f2f",
+        faqBg: "#060e2e",
       }),
       boxShadow: {
         logCard: "0px 0px 10px 2px rgba(0, 0, 0, 0.5)",
@@ -94,6 +95,7 @@ module.exports = {
         "90%": "90%",
         "92-5%": "92.5%",
         "95-5%": "95.5%",
+        "3px": "3px",
         "1k-px": "1000px",
         "13.5-rem": "13.5rem",
         "17.5-rem": "17.5rem",
@@ -113,7 +115,7 @@ module.exports = {
       },
       fontSize: {
         "40px": "40px",
-        "13px": "13px"
+        "13px": "13px",
       },
       borderRadius: {
         "20-px": "20px",
@@ -121,7 +123,7 @@ module.exports = {
       },
       maxWidth: () => ({
         "87.5%": "87.5%",
-        "600px": "600px"
+        "600px": "600px",
       }),
       animation: {
         float: "float 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",

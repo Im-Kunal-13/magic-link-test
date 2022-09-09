@@ -15,7 +15,7 @@ const Earn = () => {
         className="absolute h-full w-full bottom-24 top-0 m-auto opacity-30"
         style={{ height: "calc(100% + 150px)" }}
       /> */}
-      <h1 className={`sm600:text-5xl text-4xl tracking-wide font-exo2 font-bold ${styles.title}`}>
+      <h1 className={`sm600:text-5xl text-4xl tracking-wide font_exo2 font-bold ${styles.title}`}>
         How It Works
       </h1>
       <div className="grid hidde grid-cols-6 w-full sm600:gap-x-0 gap-x-2 sm600:gap-y-28 gap-y-10 animate-gap">
