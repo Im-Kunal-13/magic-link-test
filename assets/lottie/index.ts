@@ -1,3 +1,5 @@
 export {default as social} from "./social.json"
 export {default as social1} from "./social1.json"
 export {default as laptop} from "./laptop.json"
+export {default as question} from "./question.json"
+export {default as question1} from "./question1.json"

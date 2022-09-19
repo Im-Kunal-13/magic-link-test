@@ -9,16 +9,10 @@ const Earn = () => {
       className="flex items-center flex-col sm:gap-24 gap-10 lg1300:mt-0 sm600:mt-20 mt-5 relative px-2 z-10 xl1800:px-40 xl2000:px-60 xl2400:px-96"
       id="earn"
     >
-      {/* <img
-        src="/web_bg_purple.png"
-        alt="web background"
-        className="absolute h-full w-full bottom-24 top-0 m-auto opacity-30"
-        style={{ height: "calc(100% + 150px)" }}
-      /> */}
       <h1 className={`sm600:text-5xl text-4xl tracking-wide font_exo2 font-bold ${styles.title}`}>
         How It Works
       </h1>
-      <div className="grid hidde grid-cols-6 w-full sm600:gap-x-0 gap-x-2 sm600:gap-y-28 gap-y-10 animate-gap">
+      <div className="grid grid-cols-6 w-full sm600:gap-x-0 gap-x-2 sm600:gap-y-28 gap-y-10 animate-gap">
         {earnLinks.map((card) => (
           <div
             key={card.label}
@@ -43,7 +37,7 @@ const Earn = () => {
                   <img
                     src={card.img}
                     alt={card.label}
-                    className={`${card.imgClassNames}`}
+                    className={`${card.imgClassNames} `}
                   />
                 </div>
                 <p

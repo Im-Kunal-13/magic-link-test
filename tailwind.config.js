@@ -60,6 +60,7 @@ module.exports = {
         cardGradientPink: "#FE06C7",
         introCardBg: "#070f2f",
         faqBg: "#060e2e",
+        featureCardBg: "#181729",
       }),
       boxShadow: {
         logCard: "0px 0px 10px 2px rgba(0, 0, 0, 0.5)",
@@ -83,7 +84,8 @@ module.exports = {
         cardHoverPink1: "0px 0px 10px 7.5px rgb(238, 52, 217, .25)",
         cardHoverPurple1: "0px 0px 10px 7.5px rgb(109, 49, 167, .3)",
         cardHoverPink2: "0px 0px 100px 7.5px rgb(238, 52, 217, .25)",
-        cardHoverCyan1: "0px 0px 10px 7.5px rgb(16, 243, 246, .25)",
+        cardHoverCyan1: "0px 0px 100px 7.5px rgb(16, 243, 246, .25)",
+        cardHoverBlue1: "0px 0px 100px 7.5px rgb(34, 7, 201, .25)",
         cardBorderWhite: "0 7.5px 10px 0px rgba(255, 255, 255, .5)",
       },
       spacing: {
@@ -125,6 +127,9 @@ module.exports = {
         "87.5%": "87.5%",
         "600px": "600px",
       }),
+      minWidth: {
+        600: "600px",
+      },
       animation: {
         float: "float 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         float1: "float1 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",

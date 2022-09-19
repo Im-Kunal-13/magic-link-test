@@ -25,7 +25,7 @@ const Discover = () => {
             className="text-white tracking-widest text-xl font-bold font_sfpro button-gradient-1 landing-review2-reverse px-7 py-2.5 rounded w-fit hover:scale-105 transition-all duration-300"
             type="button"
           >
-            Invite
+            Get Started
           </a>
         </div>
         <div className="lg1100:col-span-1 col-span-2 lg1100:order-2 order-1 z-10 px-5 lg1100:max-w-full max-w-xl mx-auto">

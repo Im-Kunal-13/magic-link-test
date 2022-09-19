@@ -1,8 +1,9 @@
 import { BsTwitter, BsFileCodeFill } from "react-icons/bs";
-import { FaDiscord } from "react-icons/fa";
 import { AiFillHome } from "react-icons/ai";
 import { MdOutlineSocialDistance } from "react-icons/md";
 import { Tooltip } from "@mantine/core";
+import { FaDiscord, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { HiMail } from "react-icons/hi";
 
 export const headerLinks = [
   {
@@ -28,7 +29,7 @@ export const headerLinks = [
     label: (
       <Tooltip label="Twitter" withArrow offset={15}>
         <div
-          className="nav_link_box_shadow_blue transition-all rounded-full"
+          className="nav_link_box_shadow_blue transition-all duration-500 rounded-full"
           style={{ padding: "10px" }}
         >
           <BsTwitter size={22.5} />
@@ -43,7 +44,7 @@ export const headerLinks = [
     label: (
       <Tooltip label="Discord" withArrow offset={15}>
         <div
-          className="nav_link_box_shadow_purple transition-all rounded-full"
+          className="nav_link_box_shadow_purple transition-all duration-500 rounded-full"
           style={{ padding: "10px" }}
         >
           <FaDiscord size={22.5} />
@@ -185,5 +186,28 @@ export const faqs = [
     value: "faq5",
     ques: "How can we help ?",
     ans: "Navigate through multiple communities, DAOs and connect with the ones you are interested in.",
+  },
+];
+
+export const footerLinks = [
+  {
+    Icon: FaTwitter,
+    label: "Twitter",
+    link: "https://twitter.com/konnektrhq",
+  },
+  {
+    Icon: FaDiscord,
+    label: "Discord",
+    link: "https://discord.com/invite/vChz9grSJe",
+  },
+  {
+    Icon: FaLinkedinIn,
+    label: "LinkedIn",
+    link: "https://twitter.com/konnektrhq",
+  },
+  {
+    Icon: HiMail,
+    label: "Mail",
+    link: "mailto:konnektrhq@gmail.com",
   },
 ];

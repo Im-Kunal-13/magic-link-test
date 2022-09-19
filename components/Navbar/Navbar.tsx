@@ -97,10 +97,12 @@ const Navbar = () => {
 
   const getLinkClasses = (id: string) =>
     classnames(
-      `py-2 px-5 mx-1 transition-all font-semibold hover:text-white text-gray-600 text-md nav__link ${
+      `py-2 px-5 mx-1 transition-all font-semibold hover:text-white text-gray-600  text-md nav__link font_sfpro ${
         !(id === "twitter" || id === "discord") && styles.nav__link
       }
-      ${!(id === "twitter" || id === "discord") && "uppercase"} font__kaushan`
+      ${
+        !(id === "twitter" || id === "discord") && "tracking-wider text-xl"
+      } font__kaushan`
     );
 
   const items = headerLinks.map((link) => {
@@ -130,37 +132,37 @@ const Navbar = () => {
         id={`${styles.navbar}`}
       >
         <Container
-          className={`${classes.header} flex w-full max-w-full sm:px-20 xl1500:px-40 px-5`}
+          className={`${classes.header} flex w-full max-w-full sm:px-20 xl1500:px-32 xl1800:px-72 px-5`}
         >
           <div className="flex items-center gap-3">
             <div className="w-14">
               <Image src={network} alt="logo" layout="intrinsic" />
             </div>
-            <span className="text-2xl font-bold tracking-widest gradient-text-logo font__kaushan reflect1">
+            <span className="font_exo2 font-bold lg1100:text-3xl text-2xl gradient-text-logo">
               KONNEKTR
             </span>
           </div>
-          <div className="items-center hidden lg1300:flex">
+          <div className="items-center hidden lg1200:flex">
             <Group
               spacing={5}
               className={classes.links}
-              style={{ marginRight: "3.5rem" }}
+              style={{ marginRight: "2rem" }}
             >
               {items}
             </Group>
 
             <div
-              className="w-0 h-4 bg-gray-600 rounded-lg mr-16"
+              className="w-0 h-4 bg-gray-600 rounded-lg mr-14"
               style={{ width: "3px" }}
             />
             <a
               href="https://tally.so/r/3ja5j4"
               target="_blank"
               rel="noreferrer"
-              className="font__kaushan text-white py-2 px-7 rounded font-medium tracking-widest button-gradient-1 hover:scale-105 transition-all duration-300"
+              className="text-white tracking-widest text-lg font-bold font_sfpro button-gradient-1 px-5 py-2.5 rounded w-fit hover:scale-105 transition-all duration-300"
+              type="button"
             >
               Join Waitlist
-              {/* Get Started  */}
             </a>
           </div>
 
@@ -169,7 +171,7 @@ const Navbar = () => {
             onClick={() => {
               setDrawerActive(!drawerActive);
             }}
-            className={`${classes.burger} block lg1300:hidden z-10`}
+            className={`${classes.burger} block lg1200:hidden z-10`}
             size="sm"
             color="#6D31A7"
           />

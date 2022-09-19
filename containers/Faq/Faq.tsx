@@ -19,13 +19,13 @@ const Faq = () => {
         >
           FAQs
         </h1>
-        <p className="font_sfpro sm600:text-xl text-lg text-gray-400 ">
+        <p className="font_sfpro font-semibold tracking-wider sm600:text-xl text-lg text-gray-400 ">
           How can we help ?
         </p>
       </div>
       <Accordion
         classNames={{
-          item: "bg-introCardBg rounded-lg",
+          item: "bg-introCardBg rounded-lg border-0",
           control: "hover:bg-introCardBg hover:rounded-lg",
           chevron: "hidden",
         }}

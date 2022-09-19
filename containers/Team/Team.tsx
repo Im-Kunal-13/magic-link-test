@@ -21,7 +21,7 @@ const Team = () => {
             key={member.id}
           >
             <div
-              className={`relative ${styles.avatar} relative sm600:hover:bottom-5 bottom-0 transition-all duration-300 cursor-pointer`}
+              className={`relative ${styles.avatar} transition-all duration-300 cursor-pointer`}
             >
               <div
                 className={`${styles.gradient_hover} absolute rounded-full -z-10 top-0 bottom-0 right-0 m-auto sm600:block hidden transition-all`}

@@ -43,9 +43,20 @@
   background: linear-gradient(180deg, #9313f8, #fe06c7);
   background-size: 110%;
   visibility: hidden;
+  
 }
 .avatar:hover {
   .gradient_hover {
     visibility: visible;
+    animation: opac forwards 0.5s ease-out;
+  }
+}
+
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

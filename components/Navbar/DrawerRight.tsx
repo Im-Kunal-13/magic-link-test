@@ -30,7 +30,7 @@ const DrawerRight = () => {
       className="font-semibold px-5 overflow-y-scrol"
       classNames={{
         drawer: "bg-themeBgDarkBlue3 pl-10 bg-opacity-60 max-w-87.5%",
-        title: "text-white font__harmattan text-2xl tracking-wider ml-1",
+        title: "text-white font_sfpro text- xl tracking-wider ml-1",
       }}
     >
       <div className="flex flex-col gap-5 relative">
@@ -38,7 +38,7 @@ const DrawerRight = () => {
           return item.type === "route" ? (
             <Link href={item.link} key={item.label}>
               <a
-                className="text-white font__harmattan tracking-widest text-xl flex items-center gap-4"
+                className="text-white font_sfpro tracking-widest text-lg flex items-center gap-4"
                 onClick={handleLinkClick}
               >
                 <item.Icon color="white" size={25} />
@@ -47,7 +47,7 @@ const DrawerRight = () => {
             </Link>
           ) : (
             <a
-              className="text-white font__harmattan tracking-widest text-xl flex items-center gap-4"
+              className="text-white font_sfpro tracking-widest text-lg flex items-center gap-4"
               key={item.label}
               href={item.link}
               target="_blank"
