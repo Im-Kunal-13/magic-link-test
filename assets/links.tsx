@@ -130,6 +130,7 @@ export const memberLinks = [
     link: "https://twitter.com/konnektrhq",
     role: "Developer",
     id: "1",
+    relativeClass: "",
   },
   {
     img: "/team_avatar.png",
@@ -144,6 +145,7 @@ export const memberLinks = [
     link: "https://twitter.com/konnektrhq",
     role: "Developer",
     id: "3",
+    relativeClass: "",
   },
   {
     img: "/team_avatar.png",
@@ -151,6 +153,7 @@ export const memberLinks = [
     link: "https://twitter.com/konnektrhq",
     role: "Designer",
     id: "4",
+    relativeClass: "bottom-7",
   },
   {
     img: "/team_avatar.png",
@@ -158,6 +161,7 @@ export const memberLinks = [
     link: "https://twitter.com/konnektrhq",
     role: "Developer",
     id: "5",
+    relativeClass: "bottom-7",
   },
 ];
 

@@ -4,11 +4,12 @@
 .gradient_hover {
   background: linear-gradient(180deg, #9313f8, #fe06c7);
   background-size: 110%;
-  visibility: hidden;
+  display: none;
+  animation: opac forwards .5s ease-out;
 }
 .card_body:hover {
   .gradient_hover {
-    visibility: visible;
+    display: block;
   }
 }
 .title {
@@ -16,5 +17,14 @@
 
   @media only screen and (max-width: 600px) {
     text-shadow: white 1px 0px 75px;
+  }
+}
+
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

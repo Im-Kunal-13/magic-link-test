@@ -19,7 +19,7 @@ const Footer1 = () => {
         ].map((item) => (
           <span
             key={item.label}
-            className="text-gray-400 hover:text-white font_sfpro tracking-widest font-bold leading-loose sm600:text-lg text-xs cursor-pointer transition-all duration-300"
+            className="text-gray-400 hover:text-white font_sfpro tracking-widest font-bold leading-loose sm600:text-lg text-xs cursor-pointer transition-all duration-500"
           >
             {item.label}
           </span>
@@ -31,7 +31,7 @@ const Footer1 = () => {
             href={item.link}
             target="_blank"
             rel="noreferrer"
-            className="rounded-full p-2.5 sm600:text-xl text-lg border-gray-400 hover:border-white border-2 text-gray-400 hover:text-white sm600:hover:scale-110 transition-all duration-300 cursor-pointer"
+            className="rounded-full p-2.5 sm600:text-xl text-lg border-gray-400 hover:border-white border-2 text-gray-400 hover:text-white sm600:hover:scale-110 transition-all duration-500 cursor-pointer"
             key={item.label}
           >
             <item.Icon />

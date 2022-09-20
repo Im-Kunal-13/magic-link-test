@@ -25,17 +25,18 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative xl1800:px-40 xl2000:px-60 xl2400:px-96" id="hero">
-      <div className="lg1100:mt-28 grid grid-cols-2 lg1100:gap-0 gap- lg:px-0 xl6:pr-40">
+    <div className="relative xl1800:px-40 lg1300:mb-0 sm600:mb-20 mb-5 mx-auto" id="hero" style={{minHeight: "77vh", maxWidth: "1900px"}}>
+      <div className="lg1100:mt-28 grid grid-cols-2 lg:px-0 xl6:pr-40">
         <div
-          className={`text-center lg1100:text-start lg1100:col-span-1 col-span-2 lg1100:pl-20 xl1500:pl-36 flex flex-col lg1100:gap-0 gap-2 px-2 lg1100:order-1 order-2 relative lg1100:bottom-0 bottom-8 z-10 ${styles.animate_left}`}
+          className={`text-center lg1100:text-start lg1100:col-span-1 col-span-2 lg1100:pl-20 xl1500:pl-36 flex flex-col lg1100:gap-0 sm400:gap-2 px-2 lg1100:order-1 order-2 relative lg1100:bottom-0 sm400:bottom-20 bottom-32 z-10 ${styles.animate_left}`}
         >
           <h1
-            className={`font_exo2 font-extrabold lg1100:text-5xl sm600:text-40px text-2xl gradient-text-logo leading-tight lg1100:min-w-600`}
+            className={`font_exo2 font-extrabold lg1100:text-5xl sm600:text-40px sm400:text-2xl text-xl gradient-text-logo lg1100:min-w-600`}
+            style={{lineHeight: "1.2"}}
           >
             Network And Find Valuable Web 3.0 Connections
           </h1>
-          <p className="text-gray-400 font_sfpro md800:mt-10 mt-5 sm600:text-lg text-base font-bold lg1350:pr-10 tracking-widest leading-relaxed">
+          <p className="text-gray-400 font_sfpro md800:mt-10 mt-5 sm600:text-lg text-xs font-bold lg1350:pr-10 tracking-widest leading-relaxed">
             {
               "Konnektr is a web3 platform which lets you find connections and grow your network easily and effectively while you earn crypto alongside it."
             }
@@ -45,7 +46,7 @@ const Hero = () => {
               href="https://tally.so/r/3ja5j4"
               target="_blank"
               rel="noreferrer"
-              className="text-white tracking-widest text-lg font-bold font_sfpro button-gradient-1 px-5 py-2.5 rounded w-fit hover:scale-105 transition-all duration-300"
+              className="text-white tracking-widest text-lg font-bold font_sfpro button-gradient-1 px-5 py-2.5 rounded w-fit hover:scale-105 transition-all duration-500"
               type="button"
             >
               Join Waitlist
@@ -54,7 +55,7 @@ const Hero = () => {
               href="https://equal-dill-1d7.notion.site/Konnektr-5a7909f5ec5641e09df5bcda463f7b0b"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center gap-2 text-white tracking-widest text-lg font-bold font_sfpro border border-gray-400 px-5 py-2.5 rounded w-fit hover:scale-105 transition-all duration-300"
+              className="flex items-center gap-2 text-white tracking-widest text-lg font-bold font_sfpro border border-gray-400 px-5 py-2.5 rounded w-fit hover:scale-105 transition-all duration-500"
               type="button"
             >
               Learn more
@@ -103,7 +104,7 @@ const Hero = () => {
                     <img
                       src={item.img}
                       alt={item.img}
-                      className={`w-12 h-12 object-cover rounded-full shadow-whiteArrow hover:shadow-pinkArrow transition-all duration-200 hover:scale-125 cursor-pointer`}
+                      className={`w-12 h-12 object-cover rounded-full shadow-whiteArrow`}
                     />
                   </span>
                 ))}
@@ -123,11 +124,11 @@ const Hero = () => {
           </div>
         </div>
         <div
-          className={`lg1100:col-span-1 col-span-2 relative lg1100:bottom-32 bottom-8 sm600:px-20 lg1100:p-0 xl1500:px-20 lg1100:order-2 order-1 lg1100:h-fit sm600:h-20-rem z-10 ${styles.animate_right}`}
+          className={`lg1100:col-span-1 col-span-2 relative lg1100:bottom-32 sm400:bottom-20 bottom-24 lg1100:p-0 lg1100:order-2 order-1 lg1100:h-fit h-450px z-10`}
         >
           <div
             ref={animationContainer}
-            className="sm600:h-full h-60 lg1100:max-w-600px mx-auto"
+            className="h-full lg1100:max-w-600px mx-auto"
           />
         </div>
       </div>

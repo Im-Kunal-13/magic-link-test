@@ -97,7 +97,7 @@ const Navbar = () => {
 
   const getLinkClasses = (id: string) =>
     classnames(
-      `py-2 px-5 mx-1 transition-all font-semibold hover:text-white text-gray-600  text-md nav__link font_sfpro ${
+      `py-2 px-5 mx-1 transition-all duration-500 font-semibold hover:text-white text-gray-600  text-md nav__link font_sfpro ${
         !(id === "twitter" || id === "discord") && styles.nav__link
       }
       ${
@@ -127,8 +127,8 @@ const Navbar = () => {
     <div className={styles.app__navbar}>
       <Header
         height={HEADER_HEIGHT}
-        className={`w-full bg-transparent border-none py-12`}
-        style={{ zIndex: "1000 !important" }}
+        className={`w-full bg-transparent border-none py-12 mx-auto`}
+        style={{ zIndex: "1000 !important", maxWidth: "1900px" }}
         id={`${styles.navbar}`}
       >
         <Container
@@ -159,7 +159,7 @@ const Navbar = () => {
               href="https://tally.so/r/3ja5j4"
               target="_blank"
               rel="noreferrer"
-              className="text-white tracking-widest text-lg font-bold font_sfpro button-gradient-1 px-5 py-2.5 rounded w-fit hover:scale-105 transition-all duration-300"
+              className="text-white tracking-widest text-lg font-bold font_sfpro button-gradient-1 px-5 py-2.5 rounded w-fit hover:scale-105 transition-all duration-500"
               type="button"
             >
               Join Waitlist
@@ -171,7 +171,7 @@ const Navbar = () => {
             onClick={() => {
               setDrawerActive(!drawerActive);
             }}
-            className={`${classes.burger} block lg1200:hidden z-10`}
+            className={`${classes.burger} block lg1200:hidden z-20`}
             size="sm"
             color="#6D31A7"
           />

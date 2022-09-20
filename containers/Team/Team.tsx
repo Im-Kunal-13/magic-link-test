@@ -6,18 +6,18 @@ import styles from "./Team.module.scss";
 const Team = () => {
   return (
     <div
-      className="flex items-center flex-col sm:gap-24 gap-10 lg1300:mt-0 sm600:mt-20 mt-5 relative px-2 z-10 xl1800:px-40 xl2000:px-60 xl2400:px-96"
+      className="flex items-center flex-col sm:gap-24 gap-10 relative px-2 z-10 xl1800:px-40 xl2000:px-60 xl2400:px-96 lg1300:mb-40 sm600:mb-20 mb-5"
       id="team"
     >
       <h1
-        className={`sm600:text-5xl text-4xl tracking-wide font_exo2 font-bold ${styles.title}`}
+        className={`sm800:text-5xl sm400:text-4xl text-3xl tracking-wide font_exo2 font-bold ${styles.title}`}
       >
         Meet Our Team
       </h1>
-      <div className={`grid xl1400:gap-10 gap-5 z-10 ${styles.container}`}>
+      <div className={`grid xl1400:gap-10 sm600:gap-5 z-10 ${styles.container}`}>
         {memberLinks.map((member) => (
           <div
-            className={`flex flex-col items-center gap-5 ${styles.member}`}
+            className={`flex flex-col items-center gap-5 ${styles.member} ${member.relativeClass} sm600:scale-100 scale-75 relative sm600:static`}
             key={member.id}
           >
             <div
@@ -46,7 +46,7 @@ const Team = () => {
             </div>
             <div className="text-center">
               <a
-                className="font_sfpro font-bold xl1400:text-3xl text-2xl tracking-wider transition-all duration-300 hover:underline cursor-pointer"
+                className="font_sfpro font-bold xl1400:text-3xl text-2xl tracking-wider transition-all duration-500 hover:underline cursor-pointer"
                 href={member.link}
                 target="_blank"
                 rel="noreferrer"

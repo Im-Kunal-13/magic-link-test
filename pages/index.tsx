@@ -9,6 +9,7 @@ import Faq from "../containers/Faq/Faq";
 import Features2 from "../containers/Features2/Features2";
 import Footer1 from "../containers/Footer/Footer1";
 import Ask from "../containers/Ask/Ask";
+import { motion } from "framer-motion";
 
 const Home: NextPage = () => {
   return (
@@ -16,14 +17,62 @@ const Home: NextPage = () => {
       {/* <ScrollIndicator /> */}
       <DrawerRight />
       <Navbar />
-      <Hero />
-      <Earn />
-      <Intro1 />
-      <Features2 />
-      <Discover />
-      <Team />
-      <Faq />
-      <Ask />
+      <motion.div
+        // whileInView={{ opacity: [0, 1], y: [75, 0] }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+      >
+        <Hero />
+      </motion.div>
+      <motion.div
+        // whileInView={{ opacity: [0, 1], y: [75, 0] }}
+        transition={{}}
+        viewport={{ once: true }}
+      >
+        <Earn />
+      </motion.div>
+      <motion.div
+        // whileInView={{ opacity: [0, 1], y: [75, 0] }}
+        transition={{ duration: 1 }}
+        viewport={{once: true}}
+      >
+        <Intro1 />
+      </motion.div>
+      <motion.div
+        // whileInView={{ opacity: [0, 1], y: [75, 0] }}
+        transition={{ duration: 1 }}
+        viewport={{once: true}}
+      >
+        <Features2 />
+      </motion.div>
+      <motion.div
+        // whileInView={{ opacity: [0, 1], y: [75, 0] }}
+        transition={{ duration: 1 }}
+        viewport={{once: true}}
+      >
+        <Discover />
+      </motion.div>
+      <motion.div
+        // whileInView={{ opacity: [0, 1], y: [75, 0] }}
+        transition={{ duration: 1 }}
+        viewport={{once: true}}
+      >
+        <Ask />
+      </motion.div>
+      <motion.div
+        // whileInView={{ opacity: [0, 1], y: [75, 0] }}
+        transition={{ duration: 1 }}
+        viewport={{once: true}}
+      >
+        <Team />
+      </motion.div>
+      <motion.div
+        // whileInView={{ opacity: [0, 1], y: [75, 0] }}
+        transition={{ duration: 1 }}
+        viewport={{once: true}}
+      >
+        <Faq />
+      </motion.div>
       <Footer1 />
     </div>
   );
