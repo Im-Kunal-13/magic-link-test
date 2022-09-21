@@ -40,23 +40,21 @@
 }
 
 .gradient_hover {
-  background: linear-gradient(180deg, #9313f8, #fe06c7);
+  // background: linear-gradient(180deg, #9313f8, #fe06c7);
+  background: rgb(255, 255, 255, .5);
   background-size: 110%;
-  visibility: hidden;
-  
+  opacity: 0;
+  transition: opacity 1s;
+}
+.social_icons {
+  opacity: 0;
+  transition: opacity 1s;
 }
 .avatar:hover {
   .gradient_hover {
-    visibility: visible;
-    animation: opac forwards 0.5s ease-out;
+    opacity: 1;
   }
-}
-
-@keyframes opac {
-  from {
-    opacity: 0;
-  }
-  to {
+  .social_icons {
     opacity: 1;
   }
 }

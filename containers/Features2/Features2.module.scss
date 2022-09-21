@@ -103,12 +103,12 @@
 .gradient_hover {
   background: linear-gradient(180deg, #9313f8, #fe06c7);
   background-size: 110%;
-  display: none;
-  animation: opac forwards .5s ease-out;
+  opacity: 0;
+  transition: opacity 1s;
 }
 .card_body:hover {
   .gradient_hover {
-    display: block;
+    opacity: 1;
   }
 }
 

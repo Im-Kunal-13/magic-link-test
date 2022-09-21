@@ -29,7 +29,7 @@ export const headerLinks = [
     label: (
       <Tooltip label="Twitter" withArrow offset={15}>
         <div
-          className="nav_link_box_shadow_blue transition-all duration-500 rounded-full"
+          className="nav_link_box_shadow_blue rounded-lg hover:scale-110"
           style={{ padding: "10px" }}
         >
           <BsTwitter size={22.5} />
@@ -44,7 +44,7 @@ export const headerLinks = [
     label: (
       <Tooltip label="Discord" withArrow offset={15}>
         <div
-          className="nav_link_box_shadow_purple transition-all duration-500 rounded-full"
+          className="nav_link_box_shadow_purple rounded-lg hover:scale-110"
           style={{ padding: "10px" }}
         >
           <FaDiscord size={22.5} />

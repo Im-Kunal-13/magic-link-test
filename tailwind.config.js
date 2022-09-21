@@ -48,6 +48,8 @@ module.exports = {
         themeCyan2: "#187894",
         themeCyan3: "#10F3F6",
         twitterBlue: "#1da1f2",
+        linkedInBlue: "#0a66c2",
+        gmailRed: "#e34133",
         discordBlue: "#5865f2",
         youtubeRed: "#FF0000",
         themeBlue1: "#2207C9",

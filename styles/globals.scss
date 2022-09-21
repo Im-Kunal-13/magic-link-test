@@ -125,17 +125,19 @@ a {
 }
 .nav_link_box_shadow_blue {
   box-shadow: -5px -6px 7.5px rgb(109, 49, 167, 0.6) inset;
+  transition: all .5s ease-in-out;
 }
 .nav_link_box_shadow_blue:hover {
-  box-shadow: 5px 4px 7.5px #1da1f2;
+  box-shadow: 5px 4px 7.5px #1da1f2 inset;
   color: #1da1f2;
 }
 
 .nav_link_box_shadow_purple {
   box-shadow: -5px -6px 7.5px rgb(109, 49, 167, 0.6) inset;
+  transition: all .5s ease-in-out;
 }
 .nav_link_box_shadow_purple:hover {
-  box-shadow: 5px 4px 7.5px #5865f2;
+  box-shadow: 5px 4px 7.5px #5865f2 inset;
   color: #5865f2;
 }
 
