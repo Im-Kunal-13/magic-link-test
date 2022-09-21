@@ -28,6 +28,22 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Harmattan&display=swap"
             rel="stylesheet"
           ></link>
+          <link
+            href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Exo+2&display=swap"
+            rel="stylesheet"
+          />
+            <link
+            href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+            rel="stylesheet"
+          />
+            <link
+            href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+            rel="stylesheet"
+          />
+            <link
+            href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap"
+            rel="stylesheet"
+          />
         </Head>
         <body className="main">
           <Main />
