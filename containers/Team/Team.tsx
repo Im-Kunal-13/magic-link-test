@@ -50,7 +50,7 @@ const Team = () => {
                 <HiMail  size={25} className=""/>
               </div> */}
               <div
-                className={`flex rounded-full items-center justify-center gap-2 content-center absolute z-10 top-0 bottom-0 right-0 left-0 m-auto ${styles.social_icons}`}
+                className={`flex hidden rounded-full items-center justify-center gap-2 content-center absolute z-10 top-0 bottom-0 right-0 left-0 m-auto ${styles.social_icons}`}
               >
                 <div className="relative w-full h-full">
                   <span className="absolute -left-8 -top-5 p-3 rounded-full shadow-whity hover:shadow-twitterBlue transition-all duration-500 hover:scale-110 text-gray-400 hover:text-twitterBlue">

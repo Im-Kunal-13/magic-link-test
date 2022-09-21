@@ -37,7 +37,7 @@ const Earn = () => {
                   <img
                     src={card.img}
                     alt={card.label}
-                    className={`${card.imgClassNames} `}
+                    className={`${card.imgClassNames}`}
                   />
                 </div>
                 <p
