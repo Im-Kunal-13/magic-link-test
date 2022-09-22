@@ -25,7 +25,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative xl1800:px-40 lg1300:mb-0 sm600:mb-20 mb-5 mx-auto" id="hero" style={{minHeight: "77vh", maxWidth: "1900px"}}>
+    <div className="relative xl1800:px-40 lg1300:mb-0 sm600:mb-20 mb-5 mx-auto" id="hero" style={{minHeight: "650px", maxWidth: "1900px"}}>
       <div className="lg1100:mt-28 grid grid-cols-2 lg:px-0 xl6:pr-40">
         <div
           className={`text-center lg1100:text-start lg1100:col-span-1 col-span-2 lg1100:pl-20 xl1500:pl-36 flex flex-col lg1100:gap-0 sm400:gap-2 px-2 lg1100:order-1 order-2 relative lg1100:bottom-0 sm400:bottom-20 bottom-32 z-10 ${styles.animate_left}`}

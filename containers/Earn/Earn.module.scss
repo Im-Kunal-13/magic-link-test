@@ -19,3 +19,24 @@
     text-shadow: white 1px 0px 75px;
   }
 }
+
+.airdrop {
+  height: 112px;
+  position: relative;
+  bottom: 12px;
+
+  @media screen and (min-width: 600px) {
+    bottom: 20px;
+    height: 144px;
+  }
+}
+
+.quests {
+  height: 112px;
+  position: relative;
+  bottom: 4px;
+
+  @media screen and (min-width: 600px) {
+    height: 128px;
+  }
+}

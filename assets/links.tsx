@@ -106,7 +106,7 @@ export const earnLinks = [
   {
     img: "/medal.png",
     label: "Do Quests",
-    imgClassNames: "sm600:h-32 h-28 relative bottom-1",
+    imgClassNames: "quests",
     hoverColor: "cyan",
   },
   {
@@ -118,7 +118,7 @@ export const earnLinks = [
   {
     img: "/airdrop.png",
     label: "Exchange For Airdrops",
-    imgClassNames: "sm600:h-36 h-28 relative sm600:bottom-5 bottom-3",
+    imgClassNames: "airdrop",
     hoverColor: "pink",
   },
 ];

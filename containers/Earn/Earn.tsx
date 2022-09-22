@@ -37,7 +37,7 @@ const Earn = () => {
                   <img
                     src={card.img}
                     alt={card.label}
-                    className={`${card.imgClassNames}`}
+                    className={`${card.imgClassNames} ${(card.imgClassNames === 'airdrop') ? styles.airdrop : (card.imgClassNames === 'quests') && styles.quests }`}
                   />
                 </div>
                 <p
