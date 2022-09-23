@@ -2,7 +2,7 @@ import { BsTwitter, BsFileCodeFill } from "react-icons/bs";
 import { AiFillHome } from "react-icons/ai";
 import { MdOutlineSocialDistance } from "react-icons/md";
 import { Tooltip } from "@mantine/core";
-import { FaDiscord, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaDiscord, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 
 export const headerLinks = [
@@ -130,7 +130,7 @@ export const memberLinks = [
     link: "https://twitter.com/konnektrhq",
     role: "Developer",
     id: "1",
-    relativeClass: "",
+    relativeStyle: {},
   },
   {
     img: "/team_avatar.png",
@@ -138,6 +138,7 @@ export const memberLinks = [
     link: "https://twitter.com/konnektrhq",
     role: "Developer",
     id: "2",
+    relativeStyle: {},
   },
   {
     img: "/team_avatar.png",
@@ -145,7 +146,7 @@ export const memberLinks = [
     link: "https://twitter.com/konnektrhq",
     role: "Developer",
     id: "3",
-    relativeClass: "",
+    relativeStyle: {},
   },
   {
     img: "/team_avatar.png",
@@ -153,7 +154,7 @@ export const memberLinks = [
     link: "https://twitter.com/konnektrhq",
     role: "Designer",
     id: "4",
-    relativeClass: "bottom-7",
+    relativeStyle: { bottom: "28px", left: "25px" },
   },
   {
     img: "/team_avatar.png",
@@ -161,7 +162,7 @@ export const memberLinks = [
     link: "https://twitter.com/konnektrhq",
     role: "Developer",
     id: "5",
-    relativeClass: "bottom-7",
+    relativeStyle: { bottom: "28px", right: "25px" },
   },
 ];
 
@@ -207,7 +208,12 @@ export const footerLinks = [
   {
     Icon: FaLinkedinIn,
     label: "LinkedIn",
-    link: "https://twitter.com/konnektrhq",
+    link: "https://www.linkedin.com/company/konnektr/",
+  },
+  {
+    Icon: FaInstagram,
+    label: "Instagram",
+    link: "https://www.instagram.com/konnektr/",
   },
   {
     Icon: HiMail,

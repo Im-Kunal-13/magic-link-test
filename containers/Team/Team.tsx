@@ -18,7 +18,7 @@ const Team = () => {
       id="team"
     >
       <h1
-        className={`sm800:text-5xl sm400:text-4xl text-3xl tracking-wide font_exo2 font-bold ${styles.title} hidden`}
+        className={`sm800:text-5xl sm400:text-4xl text-3xl tracking-wide font_exo2 font-bold ${styles.title}`}
       >
         Meet Our Team
       </h1>
@@ -27,8 +27,9 @@ const Team = () => {
       >
         {memberLinks.map((member) => (
           <div
-            className={`flex flex-col items-center gap-5 ${styles.member} ${member.relativeClass} sm600:scale-100 scale-75 relative sm600:static`}
+            className={`flex flex-col items-center gap-5 ${styles.member} sm600:scale-100 scale-75 relative sm600:static`}
             key={member.id}
+            style={member.relativeStyle}
           >
             <div
               className={`relative ${styles.avatar} transition-all duration-300 cursor-pointer rounded-full`}

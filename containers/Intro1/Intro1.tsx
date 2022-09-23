@@ -26,7 +26,7 @@ export const Intro1 = () => {
     <div className="relative xl1800:px-40 xl2000:px-60 xl2400:px-96 lg1100:mb-80 mb-52" id="intro1">
       <div className="lg1100:mt-40 sm600:mt-20 grid grid-cols-2 lg1100:px-2.5 xl6:pr-40 ">
         <div
-          className={`lg:pl-5 xl1500:pl-36 lg1100:col-span-1 col-span-2 flex flex-col content-center sm:gap-10 gap-5 px-2 relative lg1100:top-24 top-36 z-10 lg1100:items-start items-center lg1100:text-start text-center lg1100:order-1 order-2`}
+          className={`lg:pl-5 xl1500:pl-36 lg1100:col-span-1 col-span-2 flex flex-col content-center sm:gap-10 gap-5 px-2 relative lg1100:top-24 z-10 lg1100:items-start items-center lg1100:text-start text-center lg1100:order-2 order-1`}
         >
           <h1 className="font_exo font-bold lg1300:text-5xl sm600:text-40px text-2xl">
             What does Konnektr do ?
@@ -46,7 +46,7 @@ export const Intro1 = () => {
             Connect
           </a>
         </div>
-        <div className="lg1100:col-span-1 col-span-2 flex items-centerlg1300:gap-10 lg1100:gap-5 sm:gap-10 gap-2.5 z-10 justify-center lg1100:order-2 order-1 sm600:px-0 px-2.5">
+        <div className="lg1100:col-span-1 col-span-2 flex items-centerlg1300:gap-10 lg1100:gap-5 sm:gap-10 gap-2.5 z-10 justify-center lg1100:order-1 order-2 sm600:px-0 px-2.5 relative lg1100:top-0 top-14">
           <div className="top-24 relative lg1100:scale-100 scale-7">
             <img src="/introCard.png" alt="" className="xl1400:h-96 lg1100:h-80 sm:h-80 h-52"/>
           </div>

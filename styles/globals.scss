@@ -79,14 +79,12 @@ a {
 }
 
 .gradient-text-logo {
-  background-color: #2207c9 !important;
   background: linear-gradient(45deg, #ee34d9, #6d31a7 40%, #10f3f6) !important;
-  // background-size: 110%;
+  background-size: 110%;
   -webkit-background-clip: text !important;
   -moz-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   -moz-text-fill-color: transparent !important;
-  padding-right: 5px !important;
 }
 .gradient-text-cyan {
   background-color: #10f3f6 !important;

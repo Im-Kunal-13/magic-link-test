@@ -97,7 +97,7 @@ const Navbar = () => {
 
   const getLinkClasses = (id: string) =>
     classnames(
-      `py-2 px-5 mx-1 transition-all duration-500 font-semibold hover:text-white text-gray-600  text-md nav__link font_sfpro ${
+      `py-2 px-5 mx-1 transition-all duration-500 tracking-widest font-bold hover:text-white text-gray-600 nav__link font_sfpro ${
         !(id === "twitter" || id === "discord") && styles.nav__link
       }
       ${
@@ -129,7 +129,7 @@ const Navbar = () => {
         height={HEADER_HEIGHT}
         className={`w-full bg-transparent border-none py-12 mx-auto`}
         style={{ zIndex: "1000 !important", maxWidth: "1900px" }}
-        id={`${styles.navbar}`}
+        id={`navbar`}
       >
         <Container
           className={`${classes.header} flex w-full max-w-full sm:px-20 xl1500:px-32 xl1800:px-72 px-5`}

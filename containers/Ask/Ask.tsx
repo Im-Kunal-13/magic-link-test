@@ -25,8 +25,8 @@ const Ask = () => {
   }, []);
   return (
     <div
-      className="relative xl1800:px-40 xl2000:px-60 xl2400:px-96 lg1300:mb-60 sm600:mb-20 mb-12"
-      id="discover"
+      className="relative xl1800:px-40 xl2000:px-60 xl2400:px-96 lg1300:mb-52 sm600:mb-20 mb-12"
+      id="contact"
     >
       <div className="grid grid-cols-2 lg1100:px-2.5 xl6:pr-40">
         <div
