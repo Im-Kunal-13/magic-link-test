@@ -1,5 +1,4 @@
 import React, { createContext, ReactNode, useContext, useState } from "react";
-import { Blog, User } from "../types/index";
 
 export interface AppContextInterface {
   drawerActive: boolean;
@@ -10,10 +9,6 @@ export interface AppContextInterface {
   setLogoutModalActive: React.Dispatch<React.SetStateAction<boolean>>;
   registerModalActive: boolean;
   setRegisterModalActive: React.Dispatch<React.SetStateAction<boolean>>;
-  user: User;
-  setUser: React.Dispatch<React.SetStateAction<User>>;
-  blogs: Blog[];
-  setBlogs: React.Dispatch<React.SetStateAction<Blog[]>>;
 }
 export const AppStateContext = createContext<AppContextInterface | null>(null);
 
@@ -22,8 +17,6 @@ export const AppContextProvider = ({ children }: { children: ReactNode }) => {
   const [loginModalActive, setLoginModalActive] = useState(false);
   const [logoutModalActive, setLogoutModalActive] = useState(false);
   const [registerModalActive, setRegisterModalActive] = useState(false);
-  const [user, setUser] = useState<User>(JSON.parse("{}"));
-  const [blogs, setBlogs] = useState<Blog[]>([]);
 
   return (
     <AppStateContext.Provider
@@ -36,10 +29,6 @@ export const AppContextProvider = ({ children }: { children: ReactNode }) => {
         setLogoutModalActive,
         registerModalActive,
         setRegisterModalActive,
-        user,
-        setUser,
-        blogs,
-        setBlogs,
       }}
     >
       {children}
