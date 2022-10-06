@@ -7,7 +7,6 @@ import styles from "./Features2.module.scss";
 
 type cardProps = { Icon: any; label: string; desc: string; shadow: string };
 
-
 export const FeatureCard = (props: cardProps) => (
   <div
     className={`${styles.card_body} relative sm600:hover:bottom-5 bottom-0 transition-all duration-500 cursor-pointer lg1300:scale-100 scale-90 `}
@@ -65,6 +64,12 @@ const Features2 = () => {
       <div className="flex items-center lg1300:gap-20 gap-5 z-10 lg1100:flex-row flex-col lg1100:mb-24 mb-10">
         {[
           {
+            Icon: FaUsers,
+            label: "GASSLESS",
+            desc: "We understand how annoying gas fees are. So we are building a gasless web3 environment which is very user friendly.",
+            shadow: "cardHoverPink2",
+          },
+          {
             Icon: FaEthereum,
             label: "ETHER",
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse recusandae vel ea impedit rerum sunt?",
@@ -75,12 +80,6 @@ const Features2 = () => {
             label: "SECURITY",
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse recusandae vel",
             shadow: "cardHoverBlue1",
-          },
-          {
-            Icon: FaUsers,
-            label: "COMMUNITY",
-            desc: "Build a community around your Exclusive Content with High Engagement",
-            shadow: "cardHoverPink2",
           },
         ].map((card) => (
           <FeatureCard
@@ -95,16 +94,16 @@ const Features2 = () => {
       <div className="flex items-center lg1300:gap-20 gap-5 z-10 lg1100:flex-row flex-col">
         {[
           {
-            Icon: RiMoneyDollarCircleFill,
-            label: "MONETIZATION",
-            desc: "Monetization tool where Fans can also participate in the growth of the community",
-            shadow: "cardHoverCyan1",
+            Icon: FaCopyright,
+            label: "NFT MARKETPLACE",
+            desc: "WE have our own NFT marketplace where people can mint, sale and trade NFTs. Moreover, it is all no-code.",
+            shadow: "cardHoverPink2",
           },
           {
-            Icon: FaCopyright,
-            label: "OWNERSHIP",
-            desc: "Unlike other social media which are owned by one central entity, here you own 100% of the content",
-            shadow: "cardHoverPink2",
+            Icon: RiMoneyDollarCircleFill,
+            label: "MONETIZATION",
+            desc: "We are a truly decentralized Social Network. We value privacy by keeping data safe, no censorship, built on lens protocol.",
+            shadow: "cardHoverCyan1",
           },
         ].map((card) => (
           <FeatureCard

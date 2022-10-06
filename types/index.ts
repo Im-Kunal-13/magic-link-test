@@ -3,24 +3,11 @@ export enum QueryKeys {
   videos = "videos",
 }
 
-export interface User {
-  _id: string;
-  email: string;
-  username: string;
-  pic: string;
-}
-
-export interface Blog {
-  _id: string;
-  email: string;
-  username: string;
-  coverImage: string;
-  description: string;
-  categories: string[];
-  owner: User;
-  title: string;
-  timeCreated: string;
-  likes: User[];
+export interface Member {
+  img: string;
+  name: string;
+  socials: { Icon: any; link: string; color: string }[];
+  role: string;
 }
 
 export interface Video {

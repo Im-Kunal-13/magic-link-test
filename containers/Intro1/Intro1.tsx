@@ -48,10 +48,10 @@ export const Intro1 = () => {
         </div>
         <div className="lg1100:col-span-1 col-span-2 flex items-centerlg1300:gap-10 lg1100:gap-5 sm:gap-10 gap-2.5 z-10 justify-center lg1100:order-1 order-2 sm600:px-0 px-2.5 relative lg1100:top-0 top-14">
           <div className="top-24 relative lg1100:scale-100 scale-7">
-            <img src="/introCard.png" alt="" className="xl1400:h-96 lg1100:h-80 sm:h-80 h-52"/>
+            <img src="/images/introCard.png" alt="" className="xl1400:h-96 lg1100:h-80 sm:h-80 h-52"/>
           </div>
           <div className="relative lg1100:scale-100 scale-7">
-            <img src="/substract1.png" alt="" className="xl1400:h-96 lg1100:h-80 sm:h-80 h-52" />
+            <img src="/images/substract1.png" alt="" className="xl1400:h-96 lg1100:h-80 sm:h-80 h-52" />
             <div
               ref={animationContainer}
               className="absolute top-0 left-0 right-0 m-auto bottom-0"

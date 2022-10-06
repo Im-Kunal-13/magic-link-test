@@ -1,0 +1,14 @@
+.member {
+  .gradient_hover {
+    background: linear-gradient(180deg, #9313f8, #fe06c7);
+    background-size: 110%;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+  &:hover {
+    .gradient_hover {
+      opacity: 100;
+    }
+  }
+}

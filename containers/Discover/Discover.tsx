@@ -29,7 +29,7 @@ const Discover = () => {
           </a>
         </div>
         <div className="lg1100:col-span-1 col-span-2 lg1100:order-2 order-1 z-10 px-5 lg1100:max-w-full max-w-xl mx-auto relative lg1100:right-0 right-3">
-            <img src="/spiralBg.png" alt="" className="" />
+            <img src="/images/spiralCommunities.png" alt="" className="" />
         </div>
       </div>
     </div>

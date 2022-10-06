@@ -2,7 +2,15 @@ import { BsTwitter, BsFileCodeFill } from "react-icons/bs";
 import { AiFillHome } from "react-icons/ai";
 import { MdOutlineSocialDistance } from "react-icons/md";
 import { Tooltip } from "@mantine/core";
-import { FaDiscord, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
+import {
+  FaDiscord,
+  FaLinkedinIn,
+  FaTwitter,
+  FaInstagram,
+  FaTwitterSquare,
+  FaLinkedin,
+  FaGithubSquare,
+} from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 
 export const headerLinks = [
@@ -86,37 +94,37 @@ export const drawerLinks = [
 
 export const earnLinks = [
   {
-    img: "/detective.png",
+    img: "/images/detective.png",
     label: "Network With People",
     imgClassNames: "sm600:h-28 h-20",
     hoverColor: "pink",
   },
   {
-    img: "/handshake.png",
+    img: "/images/handshake.png",
     label: "Connect",
     imgClassNames: "sm600:h-28 h-20 relative sm600:top-0 top-2",
     hoverColor: "purple",
   },
   {
-    img: "/community.png",
+    img: "/images/community.png",
     label: "Join Community",
     imgClassNames: "sm600:h-28 h-20 relative sm600:top-1 top-2",
     hoverColor: "cyan",
   },
   {
-    img: "/medal.png",
+    img: "/images/medal.png",
     label: "Do Quests",
     imgClassNames: "quests",
     hoverColor: "cyan",
   },
   {
-    img: "/gift.png",
+    img: "/images/gift.png",
     label: "Get Rewards",
     imgClassNames: "sm600:h-28 h-20",
     hoverColor: "purple",
   },
   {
-    img: "/airdrop.png",
+    img: "/images/airdrop.png",
     label: "Exchange For Airdrops",
     imgClassNames: "airdrop",
     hoverColor: "pink",
@@ -125,44 +133,161 @@ export const earnLinks = [
 
 export const memberLinks = [
   {
-    img: "/team_avatar.png",
+    img: "/images/team_avatar.png",
     name: "Shivraj",
-    link: "https://twitter.com/konnektrhq",
-    role: "Developer",
-    id: "1",
-    relativeStyle: {},
+    socials: [
+      {
+        Icon: FaTwitterSquare,
+        link: "https://twitter.com/imshivraj__",
+        color: "twitterBlue",
+      },
+      {
+        Icon: FaGithubSquare,
+        link: "https://github.com/imshivraj",
+        color: "white",
+      },
+      {
+        Icon: HiMail,
+        link: "mailto:shivrajofficial003@gmail.com",
+        color: "gmailRed",
+      },
+    ],
+    role: "Founder & Marketing",
   },
   {
-    img: "/team_avatar.png",
-    name: "Sharath",
-    link: "https://twitter.com/konnektrhq",
-    role: "Developer",
-    id: "2",
-    relativeStyle: {},
-  },
-  {
-    img: "/team_avatar.png",
+    img: "/images/team_avatar.png",
     name: "Kunal",
-    link: "https://twitter.com/konnektrhq",
-    role: "Developer",
-    id: "3",
-    relativeStyle: {},
+    socials: [
+      {
+        Icon: FaTwitterSquare,
+        link: "https://twitter.com/ImKunal13z",
+        color: "twitterBlue",
+      },
+      {
+        Icon: FaLinkedin,
+        link: "https://www.linkedin.com/in/kunal-mondal-41baa8212/",
+        color: "linkedInBlue",
+      },
+      {
+        Icon: FaGithubSquare,
+        link: "https://github.com/Im-Kunal-13",
+        color: "white",
+      },
+      {
+        Icon: HiMail,
+        link: "mailto:2002kunalmondal13@gmail.com",
+        color: "gmailRed",
+      },
+    ],
+    role: "Co-founder & Engineering",
   },
   {
-    img: "/team_avatar.png",
+    img: "/images/team_avatar.png",
     name: "Athul",
-    link: "https://twitter.com/konnektrhq",
-    role: "Designer",
-    id: "4",
-    relativeStyle: { bottom: "28px", left: "25px" },
+    socials: [
+      {
+        Icon: FaTwitterSquare,
+        link: "https://twitter.com/ImKunal13z",
+        color: "twitterBlue",
+      },
+      {
+        Icon: FaLinkedin,
+        link: "https://www.linkedin.com/in/kunal-mondal-41baa8212/",
+        color: "linkedInBlue",
+      },
+      {
+        Icon: FaGithubSquare,
+        link: "https://github.com/Im-Kunal-13",
+        color: "white",
+      },
+      {
+        Icon: HiMail,
+        link: "mailto:2002kunalmondal13@gmail.com",
+        color: "gmailRed",
+      },
+    ],
+    role: "Design Lead",
   },
   {
-    img: "/team_avatar.png",
+    img: "/images/team_avatar.png",
     name: "Pranav",
-    link: "https://twitter.com/konnektrhq",
-    role: "Developer",
-    id: "5",
-    relativeStyle: { bottom: "28px", right: "25px" },
+    socials: [
+      {
+        Icon: FaTwitterSquare,
+        link: "https://twitter.com/ImKunal13z",
+        color: "twitterBlue",
+      },
+      {
+        Icon: FaLinkedin,
+        link: "https://www.linkedin.com/in/kunal-mondal-41baa8212/",
+        color: "linkedInBlue",
+      },
+      {
+        Icon: FaGithubSquare,
+        link: "https://github.com/Im-Kunal-13",
+        color: "white",
+      },
+      {
+        Icon: HiMail,
+        link: "mailto:2002kunalmondal13@gmail.com",
+        color: "gmailRed",
+      },
+    ],
+    role: "Frontend Lead",
+  },
+  {
+    img: "/images/team_avatar.png",
+    name: "Sayan",
+    socials: [
+      {
+        Icon: FaTwitterSquare,
+        link: "https://twitter.com/ImKunal13z",
+        color: "twitterBlue",
+      },
+      {
+        Icon: FaLinkedin,
+        link: "https://www.linkedin.com/in/kunal-mondal-41baa8212/",
+        color: "linkedInBlue",
+      },
+      {
+        Icon: FaGithubSquare,
+        link: "https://github.com/Im-Kunal-13",
+        color: "white",
+      },
+      {
+        Icon: HiMail,
+        link: "mailto:2002kunalmondal13@gmail.com",
+        color: "gmailRed",
+      },
+    ],
+    role: "Blockchain Lead",
+  },
+  {
+    img: "/images/team_avatar.png",
+    name: "Sharath",
+    socials: [
+      {
+        Icon: FaTwitterSquare,
+        link: "https://twitter.com/Sharathguvvala",
+        color: "twitterBlue",
+      },
+      {
+        Icon: FaLinkedin,
+        link: "https://www.linkedin.com/in/sharathguvvala",
+        color: "linkedInBlue",
+      },
+      {
+        Icon: FaGithubSquare,
+        link: "https://github.com/sharathguvvala",
+        color: "white",
+      },
+      {
+        Icon: HiMail,
+        link: "mailto:guvvalasharath@gmail.com",
+        color: "gmailRed",
+      },
+    ],
+    role: "Lurker & Contributer",
   },
 ];
 
