@@ -47,7 +47,7 @@ const Hero = () => {
           </p>
           <div className="flex items-center gap-10 justify-center lg1100:justify-start sm600:my-12 my-10">
             <a
-              href="https://tally.so/r/3ja5j4"
+              href="https://form.waitlistpanda.com/go/rPsZAfsVAiLakhDAho2D"
               target="_blank"
               rel="noreferrer"
               className="text-white tracking-widest text-lg font-bold font_sfpro button-gradient-1 px-5 py-2.5 rounded w-fit hover:scale-105 transition-all duration-500"
